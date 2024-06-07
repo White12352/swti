@@ -7,14 +7,14 @@ require (
 	github.com/miekg/dns v1.1.59
 	github.com/sagernet/gomobile v0.1.3
 	github.com/sagernet/sing v0.5.0-alpha.7
-	github.com/sagernet/sing-box v1.9.0
-	github.com/sagernet/sing-dns v0.2.0-beta.18
-	github.com/sagernet/sing-tun v0.3.0-beta.6
+	github.com/sagernet/sing-box v1.9.1
+	github.com/sagernet/sing-dns v0.2.0
+	github.com/sagernet/sing-tun v0.3.2
 	github.com/xchacha20-poly1305/TLS-scribe v0.5.0
 	github.com/xchacha20-poly1305/cazilla v0.2.2
 	github.com/xchacha20-poly1305/libping v0.5.1
 	golang.org/x/crypto v0.23.0
-	golang.org/x/sys v0.20.0
+	golang.org/x/sys v0.21.0
 )
 
 // cmd
