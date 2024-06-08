@@ -8,13 +8,13 @@ require (
 	github.com/sagernet/gomobile v0.1.3
 	github.com/sagernet/sing v0.5.0-alpha.7
 	github.com/sagernet/sing-box v1.9.0
-	github.com/sagernet/sing-dns v0.2.0-beta.18
-	github.com/sagernet/sing-tun v0.3.0-beta.6
+	github.com/sagernet/sing-dns v0.2.0
+	github.com/sagernet/sing-tun v0.3.2
 	github.com/xchacha20-poly1305/TLS-scribe v0.5.0
 	github.com/xchacha20-poly1305/cazilla v0.2.2
 	github.com/xchacha20-poly1305/libping v0.5.1
 	golang.org/x/crypto v0.23.0
-	golang.org/x/sys v0.20.0
+	golang.org/x/sys v0.21.0
 )
 
 // cmd
@@ -24,6 +24,8 @@ require (
 	github.com/v2fly/v2ray-core/v5 v5.15.3
 	google.golang.org/protobuf v1.33.0
 )
+
+replace github.com/sagernet/sing-box => github.com/xchacha20-poly1305/sing-box v1.9.2-0.20240608054842-66c77327362c
 
 require (
 	berty.tech/go-libtor v1.0.385 // indirect
