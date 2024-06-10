@@ -3,7 +3,14 @@
 set -e
 
 #### Download assets
-#bash buildScript/lib/assets.sh
+ls -la
+git clone --depth=1 -b dev https://github.com/xchacha20-poly1305/husi.git t
+rm -f libcore/go.mod
+rm -f libcore/go.sum
+cp -f t/libcore/go.mod libcore
+cp -f t/libcore/go.sum libcore
+rm -rf t
+bash buildScript/lib/assets.sh
 
 exit
 
